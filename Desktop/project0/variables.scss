@@ -1,0 +1,43 @@
+$bottompad: 150px;
+$fontsz: 190%;
+
+p1 {
+    font-size: $fontsz;
+    color: #68c496;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 50px;
+}
+h1 {
+    text-align: center;
+    border: 4px dotted white;
+    background-color: #72d2d4;
+}
+body {
+    background-color: #b4d9f0;
+    font-family: monospace;
+}
+li {
+    font-size: $fontsz;
+}
+ul {
+    padding-top: 50px;
+    padding-bottom: $bottompad;
+}
+p2 {
+    font-size: $fontsz;
+}
+#image {
+    width: 80%;
+    height: 80%;
+    margin: auto auto;
+}
+.table {
+    font-size: $fontsz;
+}
+@media print {
+    .screen-only {
+        display: none;
+    }
+}
